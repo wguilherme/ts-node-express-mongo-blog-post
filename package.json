@@ -1,0 +1,11 @@
+{
+  "name": "ts-node-express-mongo-blog-post",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wguilherme/ts-node-express-mongo-blog-post.git",
+  "author": "W. Guilherme <ravok123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
