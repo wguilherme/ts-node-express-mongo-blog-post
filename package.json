@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/wguilherme/ts-node-express-mongo-blog-post.git",
-  "author": "W. Guilherme <ravok123@gmail.com>",
+  "author": "Withney Guilherme <wguilhermecriativo@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --clear --transpile-only --ignore-watch node_modules src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
   }
 }
